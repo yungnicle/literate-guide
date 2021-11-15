@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+   font-family: 'Red Hat Display', sans-serif;
+   background: top no-repeat url(../images/pattern-background-desktop.svg), #E0E8FF;
+   background-size: 1550px 437px;
+   width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    color:#1F2E55;
+}
+
+#container {
+background: top center no-repeat url(../images/illustration-hero.svg), white;
+    width: 450px;
+  height: 680px;
+  border-radius: 5%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 18px 15px hsl(227, 32%, 88%);
+}
+
+.parag {
+    font-size: 16px;
+    font-weight: 500;
+    width: 300px;
+    
+}
+
+.text{
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+table{
+    padding-right: 94px;
+    
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 350px;
+    height: 45px;
+    padding: auto;
+    border-radius: 11px;
+    border: 0;
+    margin-top: 30px;
+    box-shadow: 5px 18px 15px hsl(227, 32%, 88%);
+}
+
+button:hover {
+    background-color: #766CF1;
+cursor: pointer;
+}
+
+
+.cancel {
+    font-weight: 700;
+   color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color:#1F2E55;
+}
+
+
+a{
+    color:#382AE1;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #766CF1;
+}
+
+.table-title{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+
+    #container{
+        max-width:87%;
+}
+    }
