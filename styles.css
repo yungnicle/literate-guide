@@ -3,7 +3,7 @@
 
 body{
    font-family: 'Red Hat Display', sans-serif;
-   background: top no-repeat url(../images/pattern-background-desktop.svg), #E0E8FF;
+   background: top no-repeat url(pattern-background-desktop.svg), #E0E8FF;
    background-size: 1550px 437px;
    width: 1440px;
     height: 900px;
@@ -12,7 +12,7 @@ body{
 }
 
 #container {
-background: top center no-repeat url(../images/illustration-hero.svg), white;
+background: top center no-repeat url(illustration-hero.svg), white;
     width: 450px;
   height: 680px;
   border-radius: 5%;
